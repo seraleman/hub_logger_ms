@@ -23,6 +23,8 @@ Microservicio que administra los registros y las razones de visitas enlazándo e
 
 ## Instalación
 
+**Importante: Como el proyecto no tiene el archivo _application.properties_ aún creado (seguir leyendo para su creación), el archivo pom.xml muestra un error. Ejecutar los siguientes pasos y reinciar VSC para solventarlo**
+
 Para su uso se debe crear el archivo que contendrá la conexión a la base de datos y otra información.
 
 - Crear carpeta **resources/** en _main/_, en esta crear archivo **application.properties** e inlcuir el siguiente código:
