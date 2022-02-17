@@ -25,7 +25,7 @@ Microservicio que administra los registros y las razones de visitas enlazándo e
 
 Para su uso se debe crear el archivo que contendrá la conexión a la base de datos y otra información.
 
-- Crear archivo **application.properties** en _resources/_ e inlcuir el siguiente código:
+- Crear carpeta **resources/** en _main/_, en esta crear archivo **application.properties** e inlcuir el siguiente código:
 
 ```
 spring.data.mongodb.uri=${URL_BD:mongodb+srv: url de la base de datos}
