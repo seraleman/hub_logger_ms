@@ -31,7 +31,6 @@ Para su uso se debe crear el archivo que contendrá la conexión a la base de da
 spring.data.mongodb.uri=${URL_BD:mongodb+srv: url de la base de datos}
 server.port=${PORT:8080}
 spring.data.mongodb.auto-index-creation=true
-
 ```
 
 - Dependiendo del editor de código que se use, hay diferentes modos de correr la aplicación.
